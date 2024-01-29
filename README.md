@@ -13,6 +13,7 @@
 4. 전체 과정
 5. 파일 구조
 6. 주행 영상
+7. Stacks
 
 ## 1. 프로젝트 소개 
 ![image](https://github.com/nahye03/Object_detection-Depth_estimation-project/assets/54797864/234390a0-4166-499d-8ba4-e42409b9b53b)
@@ -123,6 +124,11 @@ roslaunch yolov7 YOLOV7.launch
     - 왼쪽 표지판 (left) : 2초 동안 왼쪽으로 회전 후 전진
 
 ## 5. 파일 구조
+- get_homography
+  - homography matrix를 구하는 부분
+- prepare_dataset
+  - 비디오로 촬영한 영상을 이미지로 변환하는 부분
+  - 이때 camera calibration을 적용하여 왜곡을 제거한다
 - lane_detection_offline-main
   - 주행을 수행하는 부분
   - 카메라, LiDAR, YOLO로부터 메세지를 받아 처리하는 부분
@@ -138,3 +144,17 @@ roslaunch yolov7 YOLOV7.launch
 
 ### Bird’s Eye View
 [![Video Label](http://img.youtube.com/vi/SFLkjMkyQ8o/0.jpg)](https://youtu.be/SFLkjMkyQ8o)
+
+## 7. Stacks
+### Environment
+<img src="https://img.shields.io/badge/ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"> <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
+<img src="https://img.shields.io/badge/git-F04032?style=for-the-badge&logo=git&logoColor=white"> 
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> 
+
+### Config
+<img src="https://img.shields.io/badge/yaml-CB171E?style=for-the-badge&logo=yaml&logoColor=white">
+
+### Development
+<img src="https://img.shields.io/badge/cplusplus-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"> <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/ros-22314E?style=for-the-badge&logo=ros&logoColor=white"> <img src="https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white">
+
+

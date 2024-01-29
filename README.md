@@ -11,7 +11,8 @@
 2. 환경 설정
 3. 실행 방법
 4. 전체 과정
-5. 
+5. 파일 구조
+6. 주행 영상
 
 ## 1. 프로젝트 소개 
 ![image](https://github.com/nahye03/Object_detection-Depth_estimation-project/assets/54797864/234390a0-4166-499d-8ba4-e42409b9b53b)

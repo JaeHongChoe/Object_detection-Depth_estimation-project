@@ -139,6 +139,9 @@ roslaunch yolov7 YOLOV7.launch
   - object_id, bounding box 정보, depth 정보를 메세지로 발행한다
 
 ## 6. 주행 영상
+### 전체 주행 영상
+[![Video Label](http://img.youtube.com/vi/bgrc_A-WkS0/0.jpg)](https://youtu.be/bgrc_A-WkS0)
+
 ### object detection
 [![Video Label](http://img.youtube.com/vi/hz_guQW5C3s/0.jpg)](https://youtu.be/hz_guQW5C3s)
 

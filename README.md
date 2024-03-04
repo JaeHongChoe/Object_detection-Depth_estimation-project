@@ -22,7 +22,6 @@
 - 카메라 센서에서 획득한 이미지를 object detection 하여 인식한 표지판, 신호등에 맞는 반응을 한다
 - 라이다 센서를 활용하여 돌발 장애물, 차량 장애물이 있을 시 정지하거나 회피한다
 - 그렇지 않을 경우 과태료가 부과된다
-
 - 차량 주변의 객체 위치 정보를 Bird’s Eye View로 표현한다
 
 ## 2. 환경 설정
@@ -90,8 +89,6 @@ roslaunch yolov7 YOLOV7.launch
 - https://github.com/WongKinYiu/yolov7
 - yolo v7 모델을 전이학습하기 위해 1차로 AiHub dataset으로 학습을 진행하였다
 - 그 후 획득한 데이터로 전이학습을 하였다
-
-
 - 학습한 모델을 자이카가 탑재하기 위해서 onnx, tensorrt로 변환한다
 - 위의 github에서 제공한 코드를 사용하여 변환하였다
 
